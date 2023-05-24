@@ -1,0 +1,22 @@
+/* *{
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+} */
+.root{
+    --mera-color:#ce212f;
+}
+.container{
+    height:1000px;
+    width:800px;
+    background-color:green;
+    border:1px solid black;
+
+}
+.box{
+   border:2px solid red;
+  
+    color:var(--mera-color);
+    background-color: yellow;
+
+}
